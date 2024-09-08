@@ -1,0 +1,14 @@
+            - name: Git remote sha
+  # You may pin to the exact commit or the version.
+  # uses: mego22/actions-git-sha@8780ffd83e13f4400afcf3ac69c79ba548452ff3
+  uses: mego22/actions-git-sha@v3
+  with:
+    # Git username
+    username: 
+    # Git password or token
+    password: 
+    # Git repository
+    repo: 
+    # Git branch
+    branch: # default is HEAD
+          
